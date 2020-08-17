@@ -1,6 +1,8 @@
+package Java;
+
 import java.util.GregorianCalendar;
 
-public class Exercise1 {
+public class Exercise {
 
     public static void main(String[] Args) {
         JavaPerson john = new JavaPerson(1L, "Mr", "John", "Blue", new GregorianCalendar(1977,9,3));
