@@ -4,9 +4,6 @@ import java.util.Calendar
 import java.util.GregorianCalendar
 import java.util.Objects
 
-
-
-
 class KotlinPerson(
     private val id: Long,
     private val title: String,
@@ -33,7 +30,6 @@ class KotlinPerson(
 
         }
     }
-
     fun getAge() = getAge(dateOfBirth)
 }
 

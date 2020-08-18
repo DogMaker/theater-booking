@@ -12,5 +12,4 @@ fun main() {
     println("The age of someone born on 3rd May 1988 is ${KotlinPerson.getAge(
         GregorianCalendar(1988, 4, 19)
     )}")
-
 }
