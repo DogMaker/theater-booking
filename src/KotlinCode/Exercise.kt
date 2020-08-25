@@ -12,4 +12,6 @@ fun main() {
     println("The age of someone born on 3rd May 1988 is ${KotlinPerson.getAge(
         GregorianCalendar(1988, 4, 19)
     )}")
+    val olderPerson = if (hugo.getAge() > dayane.getAge()) hugo else dayane
+    println("The oldest person is $olderPerson")
 }
